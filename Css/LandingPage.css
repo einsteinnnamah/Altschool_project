@@ -138,7 +138,11 @@ h5{
   .circle_team {
     width: 90%;
   }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 83a3ff77990b8fa6f2d50860cb557ba2e38eb70a
 
     a{
       color: black;
@@ -167,10 +171,13 @@ h5{
       font-weight: 600;
     }
 
+<<<<<<< HEAD
     .options a{
       color:black;
     }
 
+=======
+>>>>>>> 83a3ff77990b8fa6f2d50860cb557ba2e38eb70a
     .options_tag{
       margin-left: 40px;
     }
@@ -220,10 +227,13 @@ h5{
       top: 40%;
     }
 
+<<<<<<< HEAD
     .no_bg img{
       align-items: center
     }
 
+=======
+>>>>>>> 83a3ff77990b8fa6f2d50860cb557ba2e38eb70a
     @media screen and (max-width: 1024px) {
       .hero_text{
         font-size: 8vh;
@@ -318,6 +328,7 @@ h5{
       .hero_img img{
         width: 300px;
       }
+<<<<<<< HEAD
     }
 
     .footer {
@@ -346,5 +357,7 @@ h5{
       font-weight: 800;
       font-size: 20px;
       color: white;
+=======
+>>>>>>> 83a3ff77990b8fa6f2d50860cb557ba2e38eb70a
     }
 
