@@ -28,42 +28,54 @@ html {
 }
 
 .team {
-  padding-top: 30px;
-}
-.team img {
-  width: 194.9px;
-  height: 205px;
-  border-radius: 138.5px;
-}
-h3 {
-  text-align: center;
-  font-family: "Darker Grotesque";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 49px;
-  text-transform: capitalize;
-  color: #121212;
-}
-.about {
-  font-size: 18px;
-  width: 60%;
-  margin: 0 auto;
-}
-.text-center {
-  text-align: center;
+
+  margin-top: 215px;
 }
 
-.slider {
-  background-color: rgb(231, 231, 231);
-  max-width: 900px;
-  margin: 2rem auto;
-  height: 400px;
-  position: relative;
-  overflow: hidden;
-  padding-top: 1rem;
+ .meet{
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;  
+  margin-bottom: 50px;
 }
-.slide {
+.image img {
+  width: 194.9px;
+  height: 205px;  
+  border-radius: 138.5px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 50px 60px;
+  gap: 40px;
+}
+
+ .slider {
+  display: flex;
+  justify-content: center;
+}
+
+h4{
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+h5{
+  font-weight: 400;
+  font-size: 20px;
+  white-space: nowrap;
+  margin-bottom:11px;
+  margin-top: 5px;
+}
+
+.icons a{
+  color: black;
+  margin: 0 10px;;
+}
+
+/*.slide {
   position: absolute;
   transition: transform 1s;
   width: 100%;
@@ -110,13 +122,14 @@ h3 {
   text-transform: capitalize;
   color: #121212;
 }
+
 .job {
   font-weight: 700;
   font-size: 24px;
   line-height: 32.5px;
-}
+} */ */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .circle_team {
     width: 40%;
   }
@@ -125,7 +138,7 @@ h3 {
   .circle_team {
     width: 90%;
   }
-}
+} */
 
     a{
       color: black;
@@ -152,6 +165,10 @@ h3 {
       display: flex;
       font-size: 24px;
       font-weight: 600;
+    }
+
+    .options a{
+      color:black;
     }
 
     .options_tag{
@@ -201,6 +218,10 @@ h3 {
     .img_two img{
       position: absolute;
       top: 40%;
+    }
+
+    .no_bg img{
+      align-items: center
     }
 
     @media screen and (max-width: 1024px) {
@@ -297,5 +318,33 @@ h3 {
       .hero_img img{
         width: 300px;
       }
+    }
+
+    .footer {
+      display: flex;
+      justify-content:space-between;
+      width: 100%;
+      background-color: #2F80ED;
+      padding: 45px 88px;
+    }
+
+    .footer #foot1    {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 108.1%;
+    color: white;
+    }
+
+    #foot2{
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+
+    }
+
+    #foot2 a{
+      font-weight: 800;
+      font-size: 20px;
+      color: white;
     }
 
