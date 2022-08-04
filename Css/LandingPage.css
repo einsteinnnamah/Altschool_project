@@ -222,7 +222,8 @@ h5{
     }
 
     .no_bg img{
-      align-items: center
+      position: relative;
+      right:7.5%;
     }
 
     @media screen and (max-width: 1024px) {
